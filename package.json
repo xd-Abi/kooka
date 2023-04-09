@@ -1,7 +1,8 @@
 {
-  "name": "kooka",
+  "name": "@xdabi/kooka",
   "version": "0.1.0",
   "private": true,
+  "author": "xd Abi",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
