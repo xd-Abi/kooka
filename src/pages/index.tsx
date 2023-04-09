@@ -1,5 +1,13 @@
+import React from "react";
+import {Head} from "@/components";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <React.Fragment>
+      <Head
+        title="Kooka | Realtime Chat"
+        description="A realtime chat system"
+      />
+    </React.Fragment>
   );
 }
