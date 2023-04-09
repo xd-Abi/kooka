@@ -1,5 +1,5 @@
 import React from "react";
-import {Head} from "@/components";
+import {Container, Head} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +8,9 @@ export default function Home() {
         title="Kooka | Realtime Chat"
         description="A realtime chat system"
       />
+      <Container>
+        <p>Kooka</p>
+      </Container>
     </React.Fragment>
   );
 }
