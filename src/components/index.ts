@@ -1,2 +1,3 @@
-export {default as Container} from "./container";
-export {default as Head} from "./head";
+export { default as Container } from "./container";
+export { default as Head } from "./head";
+export * from "./icons";
